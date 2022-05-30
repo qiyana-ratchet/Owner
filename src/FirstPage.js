@@ -1,4 +1,4 @@
-function App() {
+function FirstPage() {
     return (
         <div>
             <h1>당신의 ?????을 저장하세요</h1>
@@ -6,5 +6,3 @@ function App() {
         </div>
     );
 }
-
-export default App;
