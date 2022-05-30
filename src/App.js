@@ -1,5 +1,7 @@
 import Router from "./router/Router";
-import FirstPage from "/FirstPage"
+import FirstPage from "./FirstPage"
+import styles from './css/FirstPage.module.css'
+
 
 function App() {
     return (
