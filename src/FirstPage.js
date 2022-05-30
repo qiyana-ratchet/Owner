@@ -1,3 +1,4 @@
+import styles from './css/FirstPage.module.css'
 function FirstPage() {
     return (
         <div>
