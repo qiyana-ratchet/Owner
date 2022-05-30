@@ -1,11 +1,15 @@
-.mainBody {
+.catchphrase {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
     background-color: white;
-    color: blue;
+    color: black;
     margin: 10px;
     font-family: Arial;
     text-align: center;
+}
+
+.background {
+    background-color: black;
 }
