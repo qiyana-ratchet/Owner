@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import FirstPage from '/FirstPage';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <Routes>
+            <Route path="/" element={<FirstPage />} />
+        </Routes>
+    );
+};
 
 export default App;
