@@ -1,11 +1,10 @@
 .catchphrase {
-    position: absolute;
+    position : absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%,-50%);
     background-color: white;
     color: black;
-    margin: 10px;
     font-family: Arial;
     text-align: center;
 }
@@ -14,14 +13,21 @@
     background-color: black;
 }
 
-.join-button {
+.joinButton {
     position: absolute;
+    display: block;
     left: 50%;
     top: 60%;
     transform: translate(-50%,-50%);
     background-color: white;
     color: black;
-    margin: 10px;
     font-family: Arial;
     text-align: center;
+}
+
+.main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
 }
