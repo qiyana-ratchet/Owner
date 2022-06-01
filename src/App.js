@@ -6,7 +6,7 @@ import styles from './css/FirstPage.module.css'
 function App() {
     return (
         <div className='App'>
-            <FirstPage />
+            <Router />
         </div>
     );
 }
