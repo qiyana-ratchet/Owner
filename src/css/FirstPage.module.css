@@ -6,11 +6,8 @@
     background-color: white;
     color: black;
     font-family: Arial;
+    font-weight: bolder;
     text-align: center;
-}
-
-.background {
-    background-color: black;
 }
 
 .main {
@@ -20,10 +17,6 @@
     margin: 0 auto;
 }
 
-.childDiv {
-    position: absolute;
-    margin: auto;
-}
 
 .joinButton {
     position: absolute;
@@ -31,23 +24,19 @@
     left: 50%;
     top: 60%;
     transform: translate(-50%,-50%);
-    background-color: white;
-    color: black;
-    font-family: Arial;
-    text-align: center;
+    width: 200px;
+    height: 50px;
     margin: 0px;
 }
 
 .loginButton {
     position: absolute;
     display: block;
-    right : 4%;
+    right : 1%;
     top: 5%;
     transform: translate(-50%,-50%);
-    background-color: white;
-    color: black;
-    font-family: Arial;
-    text-align: center;
+    width: 100px;
+    height: 25px;
     margin: 0px;
 }
 

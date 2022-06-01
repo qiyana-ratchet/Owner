@@ -1,4 +1,4 @@
-import styles from './css/FirstPage.module.css'
+import styles from '../css/FirstPage.module.css'
 
 
 function JoinPage() {
