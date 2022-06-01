@@ -13,18 +13,6 @@
     background-color: black;
 }
 
-.joinButton {
-    position: absolute;
-    display: block;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%,-50%);
-    background-color: white;
-    color: black;
-    font-family: Arial;
-    text-align: center;
-}
-
 .main {
     position: relative;
     width: 100vw;
@@ -35,4 +23,56 @@
 .childDiv {
     position: absolute;
     margin: auto;
+}
+
+.joinButton {
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+    margin: 0px;
+}
+
+.loginButton {
+    position: absolute;
+    display: block;
+    right : 4%;
+    top: 5%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+    margin: 0px;
+}
+
+.logo {
+    position: absolute;
+    display: block;
+    left: 8%;
+    top: 5%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+    margin: 0px;
+}
+
+.lookHomepage {
+    position: absolute;
+    display: block;
+    right: 4%;
+    bottom: 5%;
+    transform: translate(0%,-50%);
+    background-color: white;
+    color: black;
+    font-family: Arial;
+    text-align: center;
+    margin: 0px;
 }
