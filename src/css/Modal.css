@@ -7,16 +7,17 @@
     left: 0;
     z-index: 99;
     background-color: rgba(0, 0, 0, 0.6);
+    justify-content: space-around
 }
 .modal button {
     outline: none;
     cursor: pointer;
     border: 0;
-    background-color: tomato;
 }
 .modal > section {
     width: 90%;
-    max-width: 450px;
+    max-width: 400px;
+    height: 600px;
     margin: 0 auto;
     border-radius: 0.3rem;
     background-color: #fff;
@@ -26,9 +27,10 @@
 }
 .modal > section > header {
     position: relative;
-    padding: 16px 64px 16px 16px;
-    background-color: #f1f1f1;
+    padding: 16px 16px 16px 16px;
+    background-color: white;
     font-weight: 700;
+    text-align: center;
 }
 .modal > section > header button {
     position: absolute;
@@ -43,21 +45,13 @@
 }
 .modal > section > main {
     padding: 16px;
-    border-bottom: 1px solid #dee2e6;
-    border-top: 1px solid #dee2e6;
-}
-.modal > section > main > googleLoginButton {
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 30px;
-    font-size: 21px;
-    font-weight: 700;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
     text-align: center;
-    color: #999;
-    background-color: blue;
 }
-
+.modal > section > main button{
+    background-color: #d9d9d9;
+}
 .modal > section > footer {
     padding: 12px 16px;
     text-align: right;
@@ -94,47 +88,3 @@
     }
 }
 
-.googleLoginButton {
-    position: relative;
-    display: block;
-    right : 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    width: 700px;
-    height: 35px;
-    font-size: 20px;
-    margin: 0px;
-}
-
-.appleLoginButton {
-    position: absolute;
-    display: block;
-    right : 50%;
-    top: 55%;
-    transform: translate(-50%,-50%);
-    width: 300px;
-    height: 35px;
-    margin: 0px;
-}
-
-.kakaoLoginButton {
-    position: absolute;
-    display: block;
-    right : 50%;
-    top: 60%;
-    transform: translate(-50%,-50%);
-    width: 300px;
-    height: 35px;
-    margin: 0px;
-}
-
-.emailLoginButton {
-    position: absolute;
-    display: block;
-    right : 50%;
-    top: 65%;
-    transform: translate(-50%,-50%);
-    width: 300px;
-    height: 35px;
-    margin: 0px;
-}
