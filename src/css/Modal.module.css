@@ -1,0 +1,70 @@
+.title{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 35px;
+    margin: 10px auto;
+    color: #676767;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.createAccount{
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 35px;
+    margin: auto;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.googleLoginButton {
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 35px;
+    margin: 25px auto;
+    font-weight: bold;
+}
+
+.appleLoginButton {
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 35px;
+    margin: 25px auto;
+    font-weight: bold;
+
+}
+
+.kakaoLoginButton {
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 35px;
+    margin: 25px auto;
+    font-weight: bold;
+
+}
+
+.emailLoginButton {
+    position: relative;
+    display: block;
+    width: 300px;
+    height: 35px;
+    margin: 25px auto;
+    font-weight: bold;
+
+}
+
+.termsOfService {
+    position: relative;
+    display: inline-block;
+    width: 265px;
+    height: 35px;
+    margin: 20px auto;
+    font-size: 9px;
+
+}
