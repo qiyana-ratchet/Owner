@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../../css/Modal.css';
 import styleModules from '../../css/Modal.module.css'
 import Button from "../../component/Button";
+import Login from "../../Login";
 
 const Modal = (props) => {
     // 열기, 닫기, 모달 헤더 텍스트를 부모로부터 받아옴
@@ -36,7 +37,8 @@ const Modal = (props) => {
                             개인정보를 막 가져다쓰지는 않을게요.. 그냥 뭐 간단한 .. 신상정도.... 네 ...<br/></a>
                         <Button className={styleModules.googleLoginButton} text={"Google 계정으로 로그인 하기"} onClick={googleLogin}></Button>
                         <Button className={styleModules.appleLoginButton} text={"Apple 계정으로 로그인 하기"} onClick={appleLogin}></Button>
-                        <Button className={styleModules.kakaoLoginButton} text={"Kakao 계정으로 로그인 하기"} onClick={kakaoLogin}></Button>
+                        <Login className={styleModules.kakaoLoginButton}></Login>
+                        {/*<Button className={styleModules.kakaoLoginButton} text={"Kakao 계정으로 로그인 하기"} onClick={kakaoLogin()}></Button>*/}
                         <hr width={"300px"}/>
                         <Button className={styleModules.emailLoginButton} text={"휴대폰 번호 혹은 이메일로 가입하기"} onClick={emailLogin}></Button>
                         {props.children}</main>
