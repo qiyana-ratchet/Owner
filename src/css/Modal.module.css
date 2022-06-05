@@ -18,6 +18,8 @@
     color: black;
     font-size: 20px;
     font-weight: bold;
+    caret-color: transparent;
+
 }
 
 .googleLoginButton {
@@ -27,6 +29,8 @@
     height: 35px;
     margin: 25px auto;
     font-weight: bold;
+    caret-color: transparent;
+
 }
 
 .appleLoginButton {
@@ -36,16 +40,27 @@
     height: 35px;
     margin: 25px auto;
     font-weight: bold;
+    caret-color: transparent;
 
 }
 
 .kakaoLoginButton {
-    position: relative;
-    display: block;
-    width: 300px;
-    height: 35px;
-    margin: 25px auto;
-    font-weight: bold;
+    position: relative !important;
+    display: block !important;
+    width: 300px !important;
+    height: 35px !important;
+    margin: 25px auto !important;
+    font-weight: bold !important;
+    background-color: #d9d9d9 !important;
+    border: none !important;
+    color: black !important;
+    text-align: center !important;
+    text-decoration: none !important;
+    font-size: 12px !important;
+    border-radius: 100px !important;
+    padding: 0px !important;
+    line-height: 0px !important;
+    caret-color: transparent !important;
 
 }
 
@@ -56,6 +71,7 @@
     height: 35px;
     margin: 25px auto;
     font-weight: bold;
+    caret-color: transparent;
 
 }
 
