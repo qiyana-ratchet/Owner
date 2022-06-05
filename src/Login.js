@@ -24,6 +24,7 @@ function Login() {
         token={"722baf32a5e035ffc0dd6f5b61e0cd0c"}
         //카카오에서 할당받은 jsKey를 입력
         buttonText='카카오 계정으로 로그인'
+        //TODO: 카카오 디자인 css 직접 수정하면 안되고 카카오 디자인가이드에서 이미지 받아와야 된다고 함
         //로그인 버튼의 text를 입력
         onSuccess={responseKaKao}
         onFailure={responseFail}
