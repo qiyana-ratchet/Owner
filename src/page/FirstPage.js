@@ -15,9 +15,11 @@ function FirstPage() {
     const [modalOpen, setModalOpen] = useState(false);
     const openModal = () => {
         setModalOpen(true);
+        console.log("모달 열음")
     };
     const closeModal = () => {
         setModalOpen(false);
+        console.log("모달 닫음")
     };
 
 
