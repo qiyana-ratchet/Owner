@@ -5,7 +5,9 @@ import React, { useState } from 'react';
 function JoinPage() {
 
 
-
+    function googleLogin() {
+        console.log("google 로그인")
+    }
     return (
 
     <div className={styles.main}>
