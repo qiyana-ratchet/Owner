@@ -6,10 +6,15 @@ import Button from "./component/Button";
 
 function Login() {
   const [data, setData] = useState('');
+    console.log(data)
 
   const responseKaKao = (res) => {
     setData(res);
     console.log(JSON.stringify(res));
+    console.log("로그인 성공");
+    console.log(data)
+      //TODO : 백엔드 처리
+
   };
 
   const responseFail = (err) => {
