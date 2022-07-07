@@ -2,6 +2,7 @@ import styles from '../css/FirstPage.module.css'
 import Button from "../component/Button";
 import React, { useState } from 'react';
 import Modal from '../component/Modals/Modal';
+import {Link} from 'react-router-dom';
 
 
 function FirstPage() {
@@ -42,7 +43,9 @@ function FirstPage() {
                         }}></Button>
                     </div>
                     <div className={styles.bottom}>
+                        <Link to = "/mainpage">
                         <p className={styles.lookHomepage}>홈페이지 둘러보기</p>
+                        </Link>
                     </div>
                 </div>
         </div>

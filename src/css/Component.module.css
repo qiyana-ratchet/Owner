@@ -1,0 +1,155 @@
+.header {
+    position: fixed;
+    margin-bottom: 750px;
+    width: 100vw;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.nav {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 1350px;
+    height: fit-content;
+}
+.menuBar {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+.menuItem {
+    display: block;
+    width: 100px;
+}
+
+
+
+.feedBox{
+    width: 251px;
+    height: 298px;
+    background-color: #d9d9d9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.img{
+    display: block;
+    width:251px;
+    height: 240px;
+}
+.intro {
+    width: 251px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.profile{
+    width: 35px;
+    height: 35px;
+    background-color: bisque;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.textDiv{
+    height: 42px;
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-bottom: 2px;
+    justify-content: space-around;
+}
+.name {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+}
+.text {
+    font-size: 13px;
+    margin: 0;
+}
+.btn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+}
+.btnBox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+
+
+
+
+.profileBox
+{
+    width: 240px;
+    height: 120px;
+    background-color: #d9d9d9;
+    margin-bottom: 30px;
+}
+.pIntro {
+    width: 240px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pProfile{
+    width: 40px;
+    height: 40px;
+    background-color: bisque;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.pTextDiv{
+    height: 42px;
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+    margin-right: 14px;
+    margin-bottom: 2px;
+    justify-content: space-around;
+}
+.pText {
+    font-size: 13px;
+    margin: 0;
+}
+.pBtn {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 4px;
+}
+.imageDiv {
+    width: 240px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.pImage {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    background-color: blanchedalmond;
+}
