@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'ogg';
+    src: url('../fonts/Ogg-Roman.otf') format('woff');
+}
+
+.row{
+    display: flex;
+    width: 100vw;
+    height: 84px;
+    font-family: 'ogg';
+    font-weight: bolder;
+}
+
+.site-navbar {
+    margin-bottom: 0px;
+    z-index: 1999;
+    position: relative;
+    width: 100%;
+}
+
+.site-navbar.transparent {
+    background: transparent;
+}
+
+.site-navbar.absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.site-navbar .site-logo {
+    width: 15vw;
+    margin-left : 50px;
+    position: relative;
+    left: 0;
+    font-size: 24px !important;
+}
+
+.site-navbar .site-navigation .login-menu {
+    display: inline-block;
+    text-align: center;
+    width: 15vw;
+    font-size: 16px;
+    margin-top : 10px;
+    padding: 5px 20px;
+}
+
+.site-navbar .site-navigation .login-menu > li {
+    display: inline-block;
+    padding: 10px 0px;
+    margin-left: 40px;
+}
+
+.site-navbar .site-navigation .login-menu > li > a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.site-navbar .site-navigation .site-menu {
+    text-align: center;
+    width: 70vw;
+    margin-top : 10px;
+    margin-bottom: 0;
+}
+
+/*.site-navbar .site-navigation .site-menu .active > a span {*/
+/*    background: #007bff;*/
+/*    color: black;*/
+/*    border-radius: 30px;*/
+/*    display: inline-block;*/
+/*    padding: 5px 20px;*/
+/*}*/
+
+.site-navbar .site-navigation .site-menu a {
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.site-navbar .site-navigation .site-menu > li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.site-navbar .site-navigation .site-menu > li > a {
+    padding: 10px 0px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none !important;
+}
+
+.site-navbar .site-navigation .site-menu > li > a > span {
+    padding: 5px 20px;
+    display: inline-block;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    border-radius: 30px;
+}
+
+.site-navbar .site-navigation .site-menu > li > a:hover > span {
+    background: #007bff;
+    color: black;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.banner-container{
+    display: flex;
+    width: 100vw;
+    height: 200px;
+    display: inline-block;
+    font-family: 'ogg';
+    font-weight: bolder;
+}
+
+.banner-container > ul > li {
+    width: 15vw;
+    margin: 0 auto;
+    display: inline-block;
+    font-size: 56px;
+    font-family: 'ogg';
+    font-weight: lighter;
+}
