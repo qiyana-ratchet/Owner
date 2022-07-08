@@ -3,10 +3,13 @@ import KaKaoLogin from 'react-kakao-login';
 import styled from 'styled-components';
 import styleModules from "./css/Modal.module.css"
 import Button from "./component/Button";
+import {useNavigate} from "react-router";
 
 function Login() {
   const [data, setData] = useState('');
     console.log(data)
+
+  const navigate = useNavigate();
 
   const responseKaKao = (res) => {
     setData(res);
@@ -14,7 +17,7 @@ function Login() {
     console.log("로그인 성공");
     console.log(data)
       //TODO : 백엔드 처리
-
+    navigate(`/join`);
   };
 
   const responseFail = (err) => {
