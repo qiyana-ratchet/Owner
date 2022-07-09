@@ -11,7 +11,7 @@ function JoinPage() {
 
   return (
 
-    <div className={styles.main}>
+    <div>
       <header className="site-navbar" role="banner">
 
         <div className="container">
@@ -42,22 +42,102 @@ function JoinPage() {
           <li>Grocery</li>
           <li>Jewelry</li>
           <li>Papaya</li>
+          <li>Perfume</li>
+          <li>Grocery</li>
+          <li>Jewelry</li>
           <li>Papaya</li>
+          <li>Perfume</li>
+          <li>Grocery</li>
+          <li>Jewelry</li>
           <li>Papaya</li>
         </ul>
       </div>
-      <h2>Wishchiving</h2>
-      <h3>계정 만들기</h3>
-      <a>로그인하면 어쩌구저쩌구 동의하는 것이고...<br/></a>
-      <Button className="" text="Google 계정으로 로그인 하기" onClick={googleLogin}/>
-      <Button className={styles.appleLoginButton} text="Apple 계정으로 로그인 하기" onClick={googleLogin}/>
-      <Button className={styles.kakaoLoginButton} text="Kakao 계정으로 로그인 하기" onClick={googleLogin}/>
-      <Button className={styles.emailLoginButton} text="휴대폰 번호 혹은 이메일로 가입하기" onClick={googleLogin}/>
+      <hr/>
+      <div className="banner-container">
+        <ul>
+          <li>Homewear</li>
+          <li>Poster card</li>
+          <li>Bedding</li>
+          <li>Bedding</li>
+          <li>Perfume</li>
+          <li>Grocery</li>
+          <li>Jewelry</li>
+          <li>Papaya</li>
+          <li>Perfume</li>
+          <li>Grocery</li>
+          <li>Jewelry</li>
+          <li>Papaya</li>
+        </ul>
+      </div>
+      <hr/>
+      <div className="banner-container">
+        <ul>
+          <li>lamp</li>
+          <li>Phone case</li>
+          <li>Grip tok</li>
+          <li>Bedding</li>
+          <li>Perfume</li>
+          <li>Grocery</li>
+          <li>Jewelry</li>
+          <li>Papaya</li>
+          <li>Perfume</li>
+          <li>Grocery</li>
+          <li>Jewelry</li>
+          <li>Papaya</li>
+        </ul>
+      </div>
+      <hr/>
+      <div className="banner-container">
+        <ul>
+          <li>Mini Bag</li>
+          <li>Bookmark</li>
+          <li>Glasses</li>
+          <li>fabric</li>
+          <li>Cup</li>
+          <li>Grocery</li>
+          <li>Jewelry</li>
+          <li>Papaya</li>
+          <li>Perfume</li>
+          <li>Grocery</li>
+          <li>Jewelry</li>
+          <li>Papaya</li>
+        </ul>
+      </div>
+      <hr/>
+      <div className="banner-container">
+        <ul>
+          <li>Swimwear</li>
+          <li>Book</li>
+          <li>Poster</li>
+          <li>filmcamera</li>
+          <li>filmcamera</li>
+          <li>Grocery</li>
+          <li>Jewelry</li>
+          <li>Papaya</li>
+          <li>Perfume</li>
+          <li>Grocery</li>
+          <li>Jewelry</li>
+          <li>Papaya</li>
+        </ul>
+      </div>
+      <hr/>
 
-      <a className={styles.loginWithAccount}>Google 계정으로 로그인 하기<br/></a>e
-      <a className={styles.loginWithAccount}>Apple 계정으로 로그인 하기<br/></a>
-      <a className={styles.loginWithAccount}>Kakao 계정으로 로그인 하기<br/></a>
-      <a className={styles.loginWithAccount}>휴대폰 번호 혹은 이메일로 가입하기</a>
+      {/*<li className="initialCat">asdf</li>*/}
+      <hr/>
+
+
+      {/*<h2>Wishchiving</h2>*/}
+      {/*<h3>계정 만들기</h3>*/}
+      {/*<a>로그인하면 어쩌구저쩌구 동의하는 것이고...<br/></a>*/}
+      {/*<Button className="" text="Google 계정으로 로그인 하기" onClick={googleLogin}/>*/}
+      {/*<Button className={styles.appleLoginButton} text="Apple 계정으로 로그인 하기" onClick={googleLogin}/>*/}
+      {/*<Button className={styles.kakaoLoginButton} text="Kakao 계정으로 로그인 하기" onClick={googleLogin}/>*/}
+      {/*<Button className={styles.emailLoginButton} text="휴대폰 번호 혹은 이메일로 가입하기" onClick={googleLogin}/>*/}
+
+      {/*<a className={styles.loginWithAccount}>Google 계정으로 로그인 하기<br/></a>e*/}
+      {/*<a className={styles.loginWithAccount}>Apple 계정으로 로그인 하기<br/></a>*/}
+      {/*<a className={styles.loginWithAccount}>Kakao 계정으로 로그인 하기<br/></a>*/}
+      {/*<a className={styles.loginWithAccount}>휴대폰 번호 혹은 이메일로 가입하기</a>*/}
 
     </div>
   )
