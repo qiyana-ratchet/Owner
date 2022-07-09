@@ -36,7 +36,7 @@ function JoinPage() {
         <hr/>
       </header>
 
-      <div className="banner-container">
+      <marquee scrolldelay="1" scrollmount="100" className="banner-container" >
         <ul>
           <li>Perfume</li>
           <li>Grocery</li>
@@ -51,7 +51,7 @@ function JoinPage() {
           <li>Jewelry</li>
           <li>Papaya</li>
         </ul>
-      </div>
+      </marquee>
       <hr/>
       <div className="banner-container">
         <ul>
@@ -122,8 +122,6 @@ function JoinPage() {
       </div>
       <hr/>
 
-      {/*<li className="initialCat">asdf</li>*/}
-      <hr/>
 
 
       {/*<h2>Wishchiving</h2>*/}
@@ -141,7 +139,6 @@ function JoinPage() {
 
     </div>
   )
-    ;
 }
 
 export default JoinPage;
