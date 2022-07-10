@@ -1,8 +1,9 @@
 import styles from '../css/FirstPage.module.css'
 import Button from '../component/Button';
 import React, {useState} from 'react';
-import '../css/JoinPage.css'
+import styles2 from '../css/JoinPage.css'
 import bannerStyles from '../css/JoinPage.module.css'
+import Ticker from 'react-ticker'
 
 function JoinPage() {
   function googleLogin() {
@@ -36,92 +37,93 @@ function JoinPage() {
         <hr/>
       </header>
 
-      <marquee scrolldelay="1" scrollmount="100" className="banner-container" >
-        <ul>
-          <li>Perfume</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-          <li>Perfume</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-          <li>Perfume</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-        </ul>
-      </marquee>
-      <hr/>
-      <div className="banner-container">
-        <ul>
-          <li>Homewear</li>
-          <li>Poster card</li>
-          <li>Bedding</li>
-          <li>Bedding</li>
-          <li>Perfume</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-          <li>Perfume</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-        </ul>
-      </div>
-      <hr/>
-      <div className="banner-container">
-        <ul>
-          <li>lamp</li>
-          <li>Phone case</li>
-          <li>Grip tok</li>
-          <li>Bedding</li>
-          <li>Perfume</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-          <li>Perfume</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-        </ul>
-      </div>
-      <hr/>
-      <div className="banner-container">
-        <ul>
-          <li>Mini Bag</li>
-          <li>Bookmark</li>
-          <li>Glasses</li>
-          <li>fabric</li>
-          <li>Cup</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-          <li>Perfume</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-        </ul>
-      </div>
-      <hr/>
-      <div className="banner-container">
-        <ul>
-          <li>Swimwear</li>
-          <li>Book</li>
-          <li>Poster</li>
-          <li>filmcamera</li>
-          <li>filmcamera</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-          <li>Perfume</li>
-          <li>Grocery</li>
-          <li>Jewelry</li>
-          <li>Papaya</li>
-        </ul>
-      </div>
-      <hr/>
+      {/*<marquee scrolldelay="1" scrollmount="100" className="banner-container">*/}
+      {/*  <ul>*/}
+      {/*    <li>Perfume</li>*/}
+      {/*    <li>Grocery</li>*/}
+      {/*    <li>Jewelry</li>*/}
+      {/*    <li>Papaya</li>*/}
+      {/*    <li>Perfume</li>*/}
+      {/*    <li>Grocery</li>*/}
+      {/*    <li>Jewelry</li>*/}
+      {/*    <li>Papaya</li>*/}
+      {/*    <li>Perfume</li>*/}
+      {/*    <li>Grocery</li>*/}
+      {/*    <li>Jewelry</li>*/}
+      {/*    <li>Papaya</li>*/}
+      {/*  </ul>*/}
+      {/*</marquee>*/}
+      {/*<hr/>*/}
 
+      <Ticker speed={15} height={170}>
+        {({index}) => (
+          <div className={bannerStyles.bannerContainer}>
+            <ul>
+              <a className={bannerStyles.bannerContainer3}>Perfume </a>
+              <a className={bannerStyles.bannerContainer3}>Grocery </a>
+              <a className={bannerStyles.bannerContainer3}>Jewelry </a>
+              <a className={bannerStyles.bannerContainer3}>Papaya </a>
+              <a className={bannerStyles.bannerContainer3}>Papaya </a>
+            </ul>
+          </div>
+        )}
+      </Ticker>
+      <hr/>
+      <Ticker speed={15} height={170} direction={"toRight"}>
+        {({index}) => (
+          <div className={bannerStyles.bannerContainer}>
+            <ul>
+              <a className={bannerStyles.bannerContainer3}>Homewear </a>
+              <a className={bannerStyles.bannerContainer3}>Poster card </a>
+              <a className={bannerStyles.bannerContainer3}>Bedding </a>
+              <a className={bannerStyles.bannerContainer3}>Grocery </a>
+            </ul>
+          </div>
+        )}
+      </Ticker>
+      <hr/>
+      <Ticker speed={15} height={170}>
+        {({index}) => (
+          <div className={bannerStyles.bannerContainer}>
+            <ul>
+              <a className={bannerStyles.bannerContainer3}>lamp </a>
+              <a className={bannerStyles.bannerContainer3}>Phone case </a>
+              <a className={bannerStyles.bannerContainer3}>Grip tok </a>
+              <a className={bannerStyles.bannerContainer3}>Bedding </a>
+              <a className={bannerStyles.bannerContainer3}>Cat </a>
+            </ul>
+          </div>
+        )}
+      </Ticker>
+      <hr/>
+      <Ticker speed={15} height={170} direction={"toRight"}>
+        {({index}) => (
+          <div className={bannerStyles.bannerContainer}>
+            <ul>
+              <a className={bannerStyles.bannerContainer3}>Mini Bag </a>
+              <a className={bannerStyles.bannerContainer3}>Bookmark </a>
+              <a className={bannerStyles.bannerContainer3}>Glasses </a>
+              <a className={bannerStyles.bannerContainer3}>fabric </a>
+              <a className={bannerStyles.bannerContainer3}>Cup </a>
+            </ul>
+          </div>
+        )}
+      </Ticker>
+      <hr/>
+      <Ticker speed={15} height={170}>
+        {({index}) => (
+          <div className={bannerStyles.bannerContainer}>
+            <ul>
+              <a className={bannerStyles.bannerContainer3}>Swimwear </a>
+              <a className={bannerStyles.bannerContainer3}>Book </a>
+              <a className={bannerStyles.bannerContainer3}>Poster </a>
+              <a className={bannerStyles.bannerContainer3}>filmcamera </a>
+              <a className={bannerStyles.bannerContainer3}>Film </a>
+            </ul>
+          </div>
+        )}
+      </Ticker>
+      <hr/>
 
 
       {/*<h2>Wishchiving</h2>*/}
