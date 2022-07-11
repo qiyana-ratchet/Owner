@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'Pretendard';
+    src: url('../fonts/PretendardVariable.ttf') format('woff');
+}
+
+.bodyPart{
+}
+
+.wishlist > img{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.profileBanner {
+    width: 100vw;
+    height: 200px;
+    background-color: #CCCCCC;
+}
+
+.profileBanner > .profilePic{
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profileBanner > .profilePic > img{
+    display: flex;
+    margin: 22px auto;
+    text-align: center;
+
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.profileLetter{
+    position: relative;
+    margin: -92px auto;
+    text-align: center;
+    font-family: "Pretendard SemiBold";
+    font-size: 35px;
+}
+
+.profileName{
+    position: relative;
+    margin:135px auto;
+    text-align: center;
+    font-family: "Pretendard ExtraBold";
+    font-size: 20px;
+}
+
+.profileNickname{
+    position: relative;
+    margin:-130px auto;
+    text-align: center;
+    color: #868686;
+    font-family: "Pretendard SemiBold";
+    font-size: 15px;
+}
+
+.followers{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Pretendard SemiBold';
+
+}
+
+/**********************************************************
+**********************************************************
+ */
+
+
+
+.mytest{
+    height: 400px;
+
+}
+.wishContainer{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.wishlist{
+
+}
+
+/*/////////////////////////////////////////////////*/
+.grid-image {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-start;
+    margin:30px 0;
+}
+
+.grid-image > .wishlist{
+    width:calc(25% - 20px);
+    margin:0 15px 15px 0px;
+}
+.grid-image > .wishlist > img{
+    width:calc(100%);
+    margin:0 0px 15px 15px;
+}
+
+.grid-image > .wishlist > img:nth-of-type(4n),
+.grid-image > .wishlist > img:last-child {
+    margin-right:0;
+}
+
+@media screen and (max-width:640px){
+    .grid-image > .wishlist {
+        width:calc(50% - 15px);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .grid-image  > .wishlist > img:nth-of-type(2n) {
+        margin-right: 0;
+    }
+
+    .grid-image  > .wishlist > img:nth-of-type(4n) {
+        margin-right: 0;
+    }
+}
+
+

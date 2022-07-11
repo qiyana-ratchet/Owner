@@ -24,6 +24,7 @@ function JoinPage() {
                 <li><a href="listings.html"><span>Following</span></a></li>
                 <li><a href="about.html"><span>Discover</span></a></li>
                 <li><a href="blog.html"><span>Feeds</span></a></li>
+                <li><a href="blog"><span>My</span></a></li>
               </ul>
             </nav>
             <nav className="site-navigation" role="navigation">
