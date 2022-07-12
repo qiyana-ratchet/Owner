@@ -1,8 +1,6 @@
 import styles from '../css/MyPage.css'
 import Button from '../component/Button';
 import React, {useState} from 'react';
-import styles2 from '../css/JoinPage.css'
-import bannerStyles from '../css/JoinPage.module.css'
 import Ticker from 'react-ticker'
 import cat from '../img/cat.jpg'
 import profilePic from '../img/Ellipse 12.png'
@@ -12,7 +10,7 @@ function MyPage() {
 
     return (
 
-        <div>
+        <div className="entirePage">
             <header className="site-navbar" role="banner">
 
                 <div className="container">
@@ -57,34 +55,32 @@ function MyPage() {
                 <div className="followers">
                     팔로우 20 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 팔로워 20
                 </div>
-                <div className="mytest">
-                    <div className="grid-image">
-                        <div className="wishlist">
-                            <img src={cat} alt="Image"/>
-                        </div>
-                        <div className="wishlist">
-                            <img src={cat} alt="Image"/>
-                        </div>
-                        <div className="wishlist">
-                            <img src={cat} alt="Image"/>
-                        </div>
-                        <div className="wishlist">
-                            <img src={cat} alt="Image"/>
-                        </div>
-                        <div className="wishlist">
-                            <img src={cat} alt="Image"/>
-                        </div>
-                        <div className="wishlist">
-                            <img src={cat} alt="Image"/>
-                        </div>
-                        <div className="wishlist">
-                            <img src={cat} alt="Image"/>
-                        </div>
-                        <div className="wishlist">
-                            <img src={cat} alt="Image"/>
-                        </div>
-
+                <div className="grid-image">
+                    <div className="wishlist">
+                        <img src={cat} alt="Image"/>
                     </div>
+                    <div className="wishlist">
+                        <img src={cat} alt="Image"/>
+                    </div>
+                    <div className="wishlist">
+                        <img src={cat} alt="Image"/>
+                    </div>
+                    <div className="wishlist">
+                        <img src={cat} alt="Image"/>
+                    </div>
+                    <div className="wishlist">
+                        <img src={cat} alt="Image"/>
+                    </div>
+                    <div className="wishlist">
+                        <img src={cat} alt="Image"/>
+                    </div>
+                    <div className="wishlist">
+                        <img src={cat} alt="Image"/>
+                    </div>
+                    <div className="wishlist">
+                        <img src={cat} alt="Image"/>
+                    </div>
+
                 </div>
                 <hr/>
             </div>

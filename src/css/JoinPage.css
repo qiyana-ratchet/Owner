@@ -5,7 +5,7 @@
 
 .row{
     display: flex;
-    width: 100vw;
+    /*width: 100vw;*/
     height: 84px;
     font-family: 'ogg';
     font-weight: bolder;
@@ -59,7 +59,8 @@
 
 .site-navbar .site-navigation .site-menu {
     text-align: center;
-    width: 70vw;
+    /*width: 70vw;*/
+    width: 69vw;
     margin-top : 10px;
     margin-bottom: 0;
 }
@@ -145,7 +146,8 @@
     text-overflow: clip;
     overflow: hidden;
     margin: 0 auto;
-    width: 100vw;
+    /*width: 100vw;*/
+    width: 99vw;
     height: 160px;
     display: inline-block;
     font-family: 'ogg';

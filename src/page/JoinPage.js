@@ -56,7 +56,7 @@ function JoinPage() {
       {/*</marquee>*/}
       {/*<hr/>*/}
 
-      <Ticker speed={15} height={170}>
+      <Ticker speed={15} height={170} >
         {({index}) => (
           <div className={bannerStyles.bannerContainer}>
             <ul>

@@ -3,6 +3,11 @@
     src: url('../fonts/PretendardVariable.ttf') format('woff');
 }
 
+@font-face {
+    font-family: 'ogg';
+    src: url('../fonts/Ogg-Roman.otf') format('woff');
+}
+
 .bodyPart{
 }
 
@@ -13,7 +18,6 @@
 }
 
 .profileBanner {
-    width: 100vw;
     height: 200px;
     background-color: #CCCCCC;
 }
@@ -36,9 +40,9 @@
 
 .profileLetter{
     position: relative;
-    margin: -92px auto;
+    margin: -88px auto;
     text-align: center;
-    font-family: "Pretendard SemiBold";
+    font-family: "Pretendard ExtraBold";
     font-size: 35px;
 }
 
