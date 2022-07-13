@@ -31,3 +31,14 @@
     color: black;
 
 }
+
+.magImg{
+    width: calc(10%);
+    object-fit: cover;
+}
+
+.login-menu > li > a>span{
+    width: calc(1%);
+    object-fit: cover;
+
+}

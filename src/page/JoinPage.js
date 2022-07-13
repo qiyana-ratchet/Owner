@@ -4,6 +4,7 @@ import React, {useState} from 'react';
 import styles2 from '../css/JoinPage.css'
 import bannerStyles from '../css/JoinPage.module.css'
 import Ticker from 'react-ticker'
+import mag from '../img/magnifyingGlass.png'
 
 function JoinPage() {
   function googleLogin() {
@@ -29,7 +30,9 @@ function JoinPage() {
             </nav>
             <nav className="site-navigation" role="navigation">
               <ul className="login-menu">
-                <li><a href="notif.html"><span>🔍</span></a></li>
+                <li><a href="notif.html"><span>
+                    <img src={mag} className="magImg"/>
+                </span></a></li>
                 <li><a href="login.html"><span>Log-in</span></a></li>
               </ul>
             </nav>
