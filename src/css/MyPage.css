@@ -11,11 +11,7 @@
 .bodyPart{
 }
 
-.wishlist > img{
-    width: 300px;
-    height: 200px;
-    object-fit: cover;
-}
+
 
 .profileBanner {
     height: 200px;
@@ -77,35 +73,52 @@
 
 
 
-.mytest{
-    height: 400px;
-
-}
-.wishContainer{
-    display: inline-block;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.wishlist{
-
-}
-
 /*/////////////////////////////////////////////////*/
-.grid-image {
+.grid-image{
     display:flex;
     flex-wrap:wrap;
     align-items:flex-start;
-    margin:30px 0;
+    margin:30px 100px 0 100px ;
 }
 
-.grid-image > .wishlist{
-    width:calc(25% - 20px);
-    margin:0 15px 15px 0px;
+.wishWrapper{
+    width:calc(24% - 20px);
+    margin:0 33px 30px 0px;
+
 }
-.grid-image > .wishlist > img{
+
+.wishlist{
     width:calc(100%);
-    margin:0 0px 15px 15px;
+    display: flex;
+    margin:0 30px 0px 0px;
+    font-size:0; /* 여백 없애는 용도 */
+}
+
+.mainImage > img{
+    width:calc(100%);
+    height: 203px;
+    object-fit: cover;
+    margin:0 0px 15px 0px;
+    border-radius: 10px;
+}
+
+.subImage> img{
+    width:calc(100%);
+    height: 100px;
+    object-fit: cover;
+    margin:0 5px 3px 3px;
+    border-radius: 10px;
+}
+
+.wishlistText{
+    margin : 0;
+    font-family: "Pretendard ExtraBold";
+}
+
+.likesComments{
+    display:flex;
+    font-family: "Pretendard Light";
+
 }
 
 .grid-image > .wishlist > img:nth-of-type(4n),

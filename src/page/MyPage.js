@@ -1,8 +1,12 @@
 import styles from '../css/MyPage.css'
 import Button from '../component/Button';
 import React, {useState} from 'react';
+import styles2 from '../css/JoinPage.css'
+import bannerStyles from '../css/JoinPage.module.css'
 import Ticker from 'react-ticker'
 import cat from '../img/cat.jpg'
+import cat2 from '../img/cat2.jpg'
+import cat3 from '../img/cat3.jpg'
 import profilePic from '../img/Ellipse 12.png'
 
 function MyPage() {
@@ -10,7 +14,7 @@ function MyPage() {
 
     return (
 
-        <div className="entirePage">
+        <div>
             <header className="site-navbar" role="banner">
 
                 <div className="container">
@@ -56,30 +60,93 @@ function MyPage() {
                     팔로우 20 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 팔로워 20
                 </div>
                 <div className="grid-image">
-                    <div className="wishlist">
-                        <img src={cat} alt="Image"/>
+                    <div className="wishWrapper">
+                        <div className="wishlist">
+                            <div className="mainImage">
+                                <img src={cat} alt="Image"/>
+                            </div>
+                            <div className="subImage">
+                                    <img src={cat2} alt="Image"/>
+                                    <img src={cat3} alt="Image"/>
+                            </div>
+                        </div>
+                        <div className="wishlistText">
+                            간쥐 작렬 핸드폰케이스
+                        </div>
+                        <div className="likesComments">
+                            <div>
+                                🤍56 &nbsp;
+                            </div>
+                            <div>
+                                🗯️22
+                            </div>
+                        </div>
+                    </div><div className="wishWrapper">
+                        <div className="wishlist">
+                            <div className="mainImage">
+                                <img src={cat} alt="Image"/>
+                            </div>
+                            <div className="subImage">
+                                    <img src={cat2} alt="Image"/>
+                                    <img src={cat3} alt="Image"/>
+                            </div>
+                        </div>
+                        <div className="wishlistText">
+                            개굿 초깜찍 홈웨어
+                        </div>
+                        <div className="likesComments">
+                            <div>
+                                🤍56 &nbsp;
+                            </div>
+                            <div>
+                                🗯️22
+                            </div>
+                        </div>
+                    </div><div className="wishWrapper">
+                        <div className="wishlist">
+                            <div className="mainImage">
+                                <img src={cat} alt="Image"/>
+                            </div>
+                            <div className="subImage">
+                                    <img src={cat2} alt="Image"/>
+                                    <img src={cat3} alt="Image"/>
+                            </div>
+                        </div>
+                        <div className="wishlistText">
+                            노벨 맛도리 티 컬렉션
+                        </div>
+                        <div className="likesComments">
+                            <div>
+                                🤍56 &nbsp;
+                            </div>
+                            <div>
+                                🗯️22
+                            </div>
+                        </div>
+                    </div><div className="wishWrapper">
+                        <div className="wishlist">
+                            <div className="mainImage">
+                                <img src={cat} alt="Image"/>
+                            </div>
+                            <div className="subImage">
+                                    <img src={cat2} alt="Image"/>
+                                    <img src={cat3} alt="Image"/>
+                            </div>
+                        </div>
+                        <div className="wishlistText">
+                            우리옵바 손민수템
+                        </div>
+                        <div className="likesComments">
+                            <div>
+                                🤍56 &nbsp;
+                            </div>
+                            <div>
+                                🗯️22
+                            </div>
+                        </div>
                     </div>
-                    <div className="wishlist">
-                        <img src={cat} alt="Image"/>
-                    </div>
-                    <div className="wishlist">
-                        <img src={cat} alt="Image"/>
-                    </div>
-                    <div className="wishlist">
-                        <img src={cat} alt="Image"/>
-                    </div>
-                    <div className="wishlist">
-                        <img src={cat} alt="Image"/>
-                    </div>
-                    <div className="wishlist">
-                        <img src={cat} alt="Image"/>
-                    </div>
-                    <div className="wishlist">
-                        <img src={cat} alt="Image"/>
-                    </div>
-                    <div className="wishlist">
-                        <img src={cat} alt="Image"/>
-                    </div>
+
+
 
                 </div>
                 <hr/>
