@@ -33,12 +33,7 @@
 }
 
 .magImg{
-    width: calc(10%);
-    object-fit: cover;
-}
-
-.login-menu > li > a>span{
-    width: calc(1%);
+    width: 200px;
     object-fit: cover;
 
 }
