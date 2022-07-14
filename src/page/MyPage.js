@@ -7,6 +7,9 @@ import Ticker from 'react-ticker'
 import cat from '../img/cat.jpg'
 import cat2 from '../img/cat2.jpg'
 import cat3 from '../img/cat3.jpg'
+import cover1 from '../img/cover1.png'
+import cover2 from '../img/cover2.png'
+import cover3 from '../img/cover3.png'
 import profilePic from '../img/Ellipse 12.png'
 import mag from "../img/magnifyingGlass.png";
 
@@ -33,9 +36,7 @@ function MyPage() {
                         <nav className="site-navigation" role="navigation">
                             <ul className="login-menu">
                                 <li><a href="notif.html">
-                                    <span>
-                                        <img src={mag} className="magImg"/>
-                                    </span>
+                                    <img className="magImg" src={mag}/>
                                 </a></li>
                                 <li><a href="login.html"><span>Log-in</span></a></li>
                             </ul>
@@ -67,10 +68,10 @@ function MyPage() {
                 <div className="grid-image">
                     <div className="wishWrapper">
                         <div className="wishlist">
-                            <div className="mainImage">
+                            <div className="mainImage imageType">
                                 <img src={cat} alt="Image"/>
                             </div>
-                            <div className="subImage">
+                            <div className="subImage imageType">
                                 <img src={cat2} alt="Image"/>
                                 <img src={cat3} alt="Image"/>
                             </div>
@@ -90,11 +91,11 @@ function MyPage() {
                     <div className="wishWrapper">
                         <div className="wishlist">
                             <div className="mainImage">
-                                <img src={cat} alt="Image"/>
+                                <img src={cover1} alt="Image"/>
                             </div>
                             <div className="subImage">
-                                <img src={cat2} alt="Image"/>
-                                <img src={cat3} alt="Image"/>
+                                <img src={cover2} alt="Image"/>
+                                <img src={cover3} alt="Image"/>
                             </div>
                         </div>
                         <div className="wishlistText">
@@ -112,11 +113,11 @@ function MyPage() {
                     <div className="wishWrapper">
                         <div className="wishlist">
                             <div className="mainImage">
-                                <img src={cat} alt="Image"/>
+                                <img src={cover1} alt="Image"/>
                             </div>
                             <div className="subImage">
-                                <img src={cat2} alt="Image"/>
-                                <img src={cat3} alt="Image"/>
+                                <img src={cover2} alt="Image"/>
+                                <img src={cover3} alt="Image"/>
                             </div>
                         </div>
                         <div className="wishlistText">
@@ -134,11 +135,11 @@ function MyPage() {
                     <div className="wishWrapper">
                         <div className="wishlist">
                             <div className="mainImage">
-                                <img src={cat} alt="Image"/>
+                                <img src={cover1} alt="Image"/>
                             </div>
                             <div className="subImage">
-                                <img src={cat2} alt="Image"/>
-                                <img src={cat3} alt="Image"/>
+                                <img src={cover2} alt="Image"/>
+                                <img src={cover3} alt="Image"/>
                             </div>
                         </div>
                         <div className="wishlistText">
@@ -156,11 +157,11 @@ function MyPage() {
                     <div className="wishWrapper">
                         <div className="wishlist">
                             <div className="mainImage">
-                                <img src={cat} alt="Image"/>
+                                <img src={cover1} alt="Image"/>
                             </div>
                             <div className="subImage">
-                                <img src={cat2} alt="Image"/>
-                                <img src={cat3} alt="Image"/>
+                                <img src={cover2} alt="Image"/>
+                                <img src={cover3} alt="Image"/>
                             </div>
                         </div>
                         <div className="wishlistText">
@@ -178,11 +179,11 @@ function MyPage() {
                     <div className="wishWrapper">
                         <div className="wishlist">
                             <div className="mainImage">
-                                <img src={cat} alt="Image"/>
+                                <img src={cover1} alt="Image"/>
                             </div>
                             <div className="subImage">
-                                <img src={cat2} alt="Image"/>
-                                <img src={cat3} alt="Image"/>
+                                <img src={cover2} alt="Image"/>
+                                <img src={cover3} alt="Image"/>
                             </div>
                         </div>
                         <div className="wishlistText">
@@ -200,11 +201,11 @@ function MyPage() {
                     <div className="wishWrapper">
                         <div className="wishlist">
                             <div className="mainImage">
-                                <img src={cat} alt="Image"/>
+                                <img src={cover1} alt="Image"/>
                             </div>
                             <div className="subImage">
-                                <img src={cat2} alt="Image"/>
-                                <img src={cat3} alt="Image"/>
+                                <img src={cover2} alt="Image"/>
+                                <img src={cover3} alt="Image"/>
                             </div>
                         </div>
                         <div className="wishlistText">
@@ -222,11 +223,11 @@ function MyPage() {
                     <div className="wishWrapper">
                         <div className="wishlist">
                             <div className="mainImage">
-                                <img src={cat} alt="Image"/>
+                                <img src={cover1} alt="Image"/>
                             </div>
                             <div className="subImage">
-                                <img src={cat2} alt="Image"/>
-                                <img src={cat3} alt="Image"/>
+                                <img src={cover2} alt="Image"/>
+                                <img src={cover3} alt="Image"/>
                             </div>
                         </div>
                         <div className="wishlistText">
@@ -241,9 +242,95 @@ function MyPage() {
                             </div>
                         </div>
                     </div>
-
+                    <div className="wishWrapper">
+                        <div className="wishlist">
+                            <div className="mainImage">
+                                <img src={cover1} alt="Image"/>
+                            </div>
+                            <div className="subImage">
+                                <img src={cover2} alt="Image"/>
+                                <img src={cover3} alt="Image"/>
+                            </div>
+                        </div>
+                        <div className="wishlistText">
+                            우리옵바 손민수템
+                        </div>
+                        <div className="likesComments">
+                            <div>
+                                🤍56 &nbsp;
+                            </div>
+                            <div>
+                                🗯️22
+                            </div>
+                        </div>
+                    </div>                    <div className="wishWrapper">
+                        <div className="wishlist">
+                            <div className="mainImage">
+                                <img src={cover1} alt="Image"/>
+                            </div>
+                            <div className="subImage">
+                                <img src={cover2} alt="Image"/>
+                                <img src={cover3} alt="Image"/>
+                            </div>
+                        </div>
+                        <div className="wishlistText">
+                            우리옵바 손민수템
+                        </div>
+                        <div className="likesComments">
+                            <div>
+                                🤍56 &nbsp;
+                            </div>
+                            <div>
+                                🗯️22
+                            </div>
+                        </div>
+                    </div>                    <div className="wishWrapper">
+                        <div className="wishlist">
+                            <div className="mainImage">
+                                <img src={cover1} alt="Image"/>
+                            </div>
+                            <div className="subImage">
+                                <img src={cover2} alt="Image"/>
+                                <img src={cover3} alt="Image"/>
+                            </div>
+                        </div>
+                        <div className="wishlistText">
+                            우리옵바 손민수템
+                        </div>
+                        <div className="likesComments">
+                            <div>
+                                🤍56 &nbsp;
+                            </div>
+                            <div>
+                                🗯️22
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
+
+                <div className="testwishlist">
+                    <div className="mainImage imageType">
+                        <div>
+                            <img src={cat} alt="Image"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="testwishlist">
+                    <div className="mainImage imageType">
+                        <div>
+                            <img src={cat} alt="Image"/>
+                        </div>
+                    </div>
+                </div>
+                <div className="testwishlist">
+                    <div className="mainImage imageType">
+                        <div>
+                            <img src={cat} alt="Image"/>
+                        </div>
+                    </div>
+                </div>
+
                 <hr/>
             </div>
 
