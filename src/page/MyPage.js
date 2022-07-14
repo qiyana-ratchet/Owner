@@ -284,7 +284,8 @@ function MyPage() {
                                 🗯️22
                             </div>
                         </div>
-                    </div>                    <div className="wishWrapper">
+                    </div>
+                    <div className="wishWrapper">
                         <div className="wishlist">
                             <div className="mainImage">
                                 <img src={cover1} alt="Image"/>
@@ -307,28 +308,6 @@ function MyPage() {
                         </div>
                     </div>
 
-                </div>
-
-                <div className="testwishlist">
-                    <div className="mainImage imageType">
-                        <div>
-                            <img src={cat} alt="Image"/>
-                        </div>
-                    </div>
-                </div>
-                <div className="testwishlist">
-                    <div className="mainImage imageType">
-                        <div>
-                            <img src={cat} alt="Image"/>
-                        </div>
-                    </div>
-                </div>
-                <div className="testwishlist">
-                    <div className="mainImage imageType">
-                        <div>
-                            <img src={cat} alt="Image"/>
-                        </div>
-                    </div>
                 </div>
 
                 <hr/>
