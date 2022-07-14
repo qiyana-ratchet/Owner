@@ -38,7 +38,7 @@
 }
 
 .site-navbar .site-navigation .login-menu {
-    display: inline-block;
+    display: flex;
     text-align: center;
     width: 15vw;
     font-size: 16px;
