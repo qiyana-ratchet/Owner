@@ -1,0 +1,9 @@
+.discoverBanner {
+    display: flex;
+    justify-content: center;
+}
+
+.discoverBanner > img{
+
+    width: 90%;
+}

@@ -1,7 +1,7 @@
 import styles from '../css/MyPage.css'
 import Button from '../component/Button';
 import React, {useState} from 'react';
-import styles2 from '../css/JoinPage.css'
+import '../css/JoinPage.css'
 import bannerStyles from '../css/JoinPage.module.css'
 import Ticker from 'react-ticker'
 import cat from '../img/cat.jpg'
@@ -17,7 +17,7 @@ function MyPage() {
 
 
     return (
-
+        //TODO : 상단바, 위시리스트 모듈화
         <div>
             <header className="site-navbar" role="banner">
 
