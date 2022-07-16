@@ -18,6 +18,8 @@ function MyPage() {
 
     return (
         //TODO : 상단바, 위시리스트 모듈화
+        //TODO : 백엔드 연동
+        //TODO : 깃헙io 연동
         <div>
             <header className="site-navbar" role="banner">
 
@@ -43,7 +45,6 @@ function MyPage() {
                         </nav>
                     </div>
                 </div>
-                <hr/>
             </header>
             <div className="bodyPart">
                 <div className="profileBanner">
@@ -61,7 +62,6 @@ function MyPage() {
                         @Blueb
                     </div>
                 </div>
-                <hr/>
                 <div className="followers">
                     팔로우 20 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 팔로워 20
                 </div>
