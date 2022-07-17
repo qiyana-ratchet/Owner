@@ -1,7 +1,7 @@
 import styles from '../css/MyPage.css'
 import Button from '../component/Button';
 import React, {useState} from 'react';
-import '../css/JoinPage.css'
+import  '../css/JoinPage.css'
 import bannerStyles from '../css/JoinPage.module.css'
 import Ticker from 'react-ticker'
 import cat from '../img/cat.jpg'
