@@ -22,10 +22,10 @@ function JoinPage() {
             <nav className="site-navigation" role="navigation">
               <ul className="site-menu">
                   <li className="active"><a href="index.html"><span>Home</span></a></li>
-                  <li><a href="/join"><span>Following</span></a></li>
-                  <li><a href="/discover"><span>Discover</span></a></li>
-                  <li><a href="/mainpage"><span>Feeds</span></a></li>
-                  <li><a href="/mypage"><span>My</span></a></li>
+                  <li><a href="/Owner/join"><span>Following</span></a></li>
+                  <li><a href="/Owner/discover"><span>Discover</span></a></li>
+                  <li><a href="/Owner/mainpage"><span>Feeds</span></a></li>
+                  <li><a href="/Owner/mypage"><span>My</span></a></li>
               </ul>
             </nav>
             <nav className="site-navigation" role="navigation">

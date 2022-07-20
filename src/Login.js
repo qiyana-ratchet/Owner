@@ -17,7 +17,7 @@ function Login() {
     console.log("로그인 성공");
     console.log(data)
       //TODO : 백엔드 처리
-    navigate(`/join`);
+    navigate(`/Owner/join`);
   };
 
   const responseFail = (err) => {

@@ -11,7 +11,7 @@ export default function Router() {
     return (
         <div>
             <Routes>
-                <Route path='/Owner' element={<FirstPage/>}/>
+                <Route path='/' element={<FirstPage/>}/>
                 <Route exact path='/join' element={<JoinPage/>}/>
                 <Route exact path='/mainpage' element={<MainPage/>}/>
                 <Route exact path='/mypage' element={<MyPage/>}/>
