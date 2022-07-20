@@ -29,9 +29,9 @@ function MyPage() {
                         <nav className="site-navigation" role="navigation">
                             <ul className="site-menu">
                                 <li className="active"><a href="index.html"><span>Home</span></a></li>
-                                <li><a href="listings.html"><span>Following</span></a></li>
-                                <li><a href="about.html"><span>Discover</span></a></li>
-                                <li><a href="blog.html"><span>Feeds</span></a></li>
+                                <li><a href="join"><span>Following</span></a></li>
+                                <li><a href="discover"><span>Discover</span></a></li>
+                                <li><a href="mainpage"><span>Feeds</span></a></li>
                                 <li><a href="mypage"><span>My</span></a></li>
                             </ul>
                         </nav>
