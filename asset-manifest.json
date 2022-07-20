@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Owner/static/css/main.ef9f33d8.css",
-    "main.js": "/Owner/static/js/main.5ded0e1f.js",
+    "main.css": "/Owner/static/css/main.f87a9a35.css",
+    "main.js": "/Owner/static/js/main.f8b03268.js",
     "static/media/PretendardVariable.ttf": "/Owner/static/media/PretendardVariable.d008a69682c7c6bef29a.ttf",
     "static/media/DiscoverBanner.png": "/Owner/static/media/DiscoverBanner.62e1188241f0acbfd6ff.png",
     "static/media/Ogg-Roman.otf": "/Owner/static/media/Ogg-Roman.4d8ddd1b37cfae273847.otf",
@@ -12,11 +12,11 @@
     "static/media/slide02.jpg": "/Owner/static/media/slide02.a473785d2148bc4bb3f1.jpg",
     "static/media/slide01.jpg": "/Owner/static/media/slide01.41c19c7a8b55cf70ec96.jpg",
     "index.html": "/Owner/index.html",
-    "main.ef9f33d8.css.map": "/Owner/static/css/main.ef9f33d8.css.map",
-    "main.5ded0e1f.js.map": "/Owner/static/js/main.5ded0e1f.js.map"
+    "main.f87a9a35.css.map": "/Owner/static/css/main.f87a9a35.css.map",
+    "main.f8b03268.js.map": "/Owner/static/js/main.f8b03268.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef9f33d8.css",
-    "static/js/main.5ded0e1f.js"
+    "static/css/main.f87a9a35.css",
+    "static/js/main.f8b03268.js"
   ]
 }
