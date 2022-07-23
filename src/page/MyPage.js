@@ -12,6 +12,7 @@ import cover2 from '../img/cover2.png'
 import cover3 from '../img/cover3.png'
 import profilePic from '../img/Ellipse 12.png'
 import mag from "../img/magnifyingGlass.png";
+import MenuHeader from "../component/MenuHeader";
 
 function MyPage() {
 
@@ -21,31 +22,8 @@ function MyPage() {
         //TODO : 백엔드 연동
         //TODO : 깃헙io 연동
         <div>
-            <header className="site-navbar" role="banner">
+            <MenuHeader></MenuHeader>
 
-                <div className="container">
-                    <div className="row">
-                        <h1 className="site-logo">Owner</h1>
-                        <nav className="site-navigation" role="navigation">
-                            <ul className="site-menu">
-                                <li className="active"><a href="index.html"><span>Home</span></a></li>
-                                <li><a href="join"><span>Following</span></a></li>
-                                <li><a href="discover"><span>Discover</span></a></li>
-                                <li><a href="mainpage"><span>Feeds</span></a></li>
-                                <li><a href="mypage"><span>My</span></a></li>
-                            </ul>
-                        </nav>
-                        <nav className="site-navigation" role="navigation">
-                            <ul className="login-menu">
-                                <li><a href="notif.html">
-                                    <img className="magImg" src={mag}/>
-                                </a></li>
-                                <li><a href="login.html"><span>Log-in</span></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </header>
             <div className="bodyPart">
                 <div className="profileBanner">
                     <div className="profilePic">

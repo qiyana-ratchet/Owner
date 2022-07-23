@@ -6,40 +6,15 @@ import slide2 from "../img/example/slide02.jpg";
 import slide3 from "../img/example/slide03.jpg";
 import discoverBanner from "../img/DiscoverBanner.png"
 import '../css/DiscoverPage.css'
+import MenuHeader from "../component/MenuHeader";
 
 
 function DiscoverPage() {
     return (
         <div>
-            <header className="site-navbar" role="banner">
+            <MenuHeader></MenuHeader>
 
-                <div className="container">
-                    <div className="row">
-                        <h1 className="site-logo">Owner</h1>
-                        <nav className="site-navigation" role="navigation">
-                            <ul className="site-menu">
-                                <li className="active"><a href="index.html"><span>Home</span></a></li>
-                                <li><a href="join"><span>Following</span></a></li>
-                                <li><a href="discover"><span>Discover</span></a></li>
-                                <li><a href="mainpage"><span>Feeds</span></a></li>
-                                <li><a href="mypage"><span>My</span></a></li>
-                            </ul>
-                        </nav>
-                        <nav className="site-navigation" role="navigation">
-                            <ul className="login-menu">
-                                <li><a href="notif.html">
-                                    <img className="magImg" src={mag}/>
-                                </a></li>
-                                <li><a href="login.html"><span>Log-in</span></a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-            </header>
 
-            {/*<div className="discoverBanner">*/}
-            {/*    <img src={discoverBanner} />*/}
-            {/*</div>*/}
             <div class="section">
                 <input type="radio" name="slide" id="slide01"/>
                 <input type="radio" name="slide" id="slide02" checked/>
