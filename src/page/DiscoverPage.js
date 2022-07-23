@@ -15,40 +15,6 @@ function DiscoverPage() {
             <MenuHeader></MenuHeader>
 
 
-            <div class="section">
-                <input type="radio" name="slide" id="slide01"/>
-                <input type="radio" name="slide" id="slide02" checked/>
-                <input type="radio" name="slide" id="slide03"/>
-
-                <div class="slidewrap">
-                    <ul class="slidelist">
-                        <li>
-                            <a>
-                                <label for="slide03" class="left"></label>
-                                <img src={slide1}/>
-                                <label for="slide02" class="right"></label>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <label for="slide01" class="left"></label>
-                                <img src={slide2}/>
-                                <label for="slide03" class="right"></label>
-                            </a>
-                        </li>
-                        <li>
-                            <a>
-                                <label for="slide02" class="left"></label>
-                                <img src={slide3}/>
-                                <label for="slide01" class="right"></label>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-
 
 
 

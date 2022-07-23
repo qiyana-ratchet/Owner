@@ -14,7 +14,7 @@ function MenuHeader() {
                         <h1 className="site-logo">Owner</h1>
                         <nav className="site-navigation" role="navigation">
                             <ul className="site-menu">
-                                <li className="active"><a href="index.html"><span>Home</span></a></li>
+                                <li className="active"><a href="/Owner/join"><span>Home</span></a></li>
                                 <li><a href="/Owner/join"><span>Following</span></a></li>
                                 <li><a href="/Owner/discover"><span>Discover</span></a></li>
                                 <li><a href="/Owner/mainpage"><span>Feeds</span></a></li>
