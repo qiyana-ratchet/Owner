@@ -11,7 +11,7 @@ function MenuHeader() {
 
                 <div className="container">
                     <div className="row">
-                        <h1 className="site-logo">Owner</h1>
+                        <h1 className="site-logo"><a href="/Owner/join">Owner</a></h1>
                         <nav className="site-navigation" role="navigation">
                             <ul className="site-menu">
                                 <li className="active"><a href="/Owner/join"><span>Home</span></a></li>

@@ -37,6 +37,11 @@
     font-size: 24px !important;
 }
 
+.site-logo > a{
+    text-decoration: none;
+    color: black;
+}
+
 .site-navbar .site-navigation .login-menu {
     display: flex;
     text-align: center;

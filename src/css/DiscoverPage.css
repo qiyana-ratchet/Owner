@@ -23,12 +23,12 @@
     white-space: nowrap;
     font-size: 0;
 }
-.section .slidelist > li{
-    display: inline-block;
-    vertical-align: middle;
-    width: 100%;
-    transition: all .5s;
-}
+/*.section .slidelist > li{*/
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+/*    width: 100%;*/
+/*    transition: all .5s;*/
+/*}*/
 .section .slidelist > li > a {
     width: 100%;
 }
